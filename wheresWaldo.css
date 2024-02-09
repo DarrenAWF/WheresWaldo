@@ -58,26 +58,26 @@ footer {
     height: 27vw;
 }
 
-.doorOpen{
+.doorOpen {
     margin-top: 40px;
     height: 27vw;
 }
 
-.picture{
+.picture {
     margin: 0px 4vw;
     position: relative;
-        display: inline-block;
+    display: inline-block;
 }
 
 .picture .doorOpen {
     display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
-.picture:hover .doorOpen{
+.picture:hover .doorOpen {
     cursor: pointer;
     display: inline;
 }
@@ -87,29 +87,29 @@ footer {
     font-size: 1.5vw;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 .painting {
     margin-top: 40px;
-    height: 20px;
+    height: 18vw;
 }
 
-.paintingOpen{
+.paintingOpen {
     margin-top: 40px;
-    height: 20px;
+    height: 18vw;
 }
 
 .picture .paintingOpen {
     display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
-.picture:hover .paintingOpen{
+.picture:hover .paintingOpen {
     cursor: pointer;
     display: inline;
 }
