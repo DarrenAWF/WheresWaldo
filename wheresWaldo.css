@@ -19,7 +19,8 @@ body{
     color: rgb(208,205,199);
     font-size: 7vw;
     margin: 10px 20% 10px 20%;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 4px rgb(208,205,199) solid;
     padding: 0 30px 0 30px;
     background-color: rgb(64, 125, 64);
 }
