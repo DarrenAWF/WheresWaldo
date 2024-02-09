@@ -1,0 +1,40 @@
+* {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(208,205,199);
+}
+
+.title {
+    font-size: 6vw;
+    margin: 14vh 20% 10px 20%;
+}
+
+.startButton {
+    color: rgb(208,205,199);
+    font-size: 7vw;
+    margin: 10px 20% 10px 20%;
+    border-radius: 10px;
+    padding: 0 30px 0 30px;
+    background-color: rgb(64, 125, 64);
+}
+
+.startButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 213, 12);
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 25px;
+    font-size: 2vw;
+    /*font-weight: normal;*/
+}
