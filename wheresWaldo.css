@@ -39,3 +39,30 @@ footer {
     font-size: 2vw;
     /*font-weight: normal;*/
 }
+
+.objective{
+    font-size: 3vw;
+}
+
+.waldo{
+    width: 3vw;
+    margin-left: 1vw;
+}
+
+.waldo:hover{
+    cursor: pointer;
+}
+
+.door{
+    margin-top: 40px;
+    height: 27vw;
+}
+
+.door:hover{
+    cursor: pointer;
+}
+
+.subObjective{
+    margin-top: 5px;
+    font-size: 1.5vw;
+}
