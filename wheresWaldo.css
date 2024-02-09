@@ -92,13 +92,13 @@ a {
 }
 
 .painting {
-    margin-top: 40px;
-    height: 18vw;
+    margin-top: 90px;
+    height: 16vw;
 }
 
 .paintingOpen {
-    margin-top: 40px;
-    height: 18vw;
+    margin-top: 90px;
+    height: 16vw;
 }
 
 .picture .paintingOpen {
@@ -112,4 +112,25 @@ a {
 .picture:hover .paintingOpen {
     cursor: pointer;
     display: inline;
+}
+
+.returnButton {
+    color: rgb(208, 205, 199);
+    font-size: 7vw;
+    margin: 30px 20% 10px 20%;
+    border-radius: 20px;
+    border: 4px rgb(208, 205, 199) solid;
+    padding: 0 30px 0 30px;
+    background-color: rgb(125, 64, 64);
+}
+
+.returnButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(213, 12, 12);
+    cursor: pointer;
+}
+
+.titleReturn{
+    font-size: 5vw;
+    margin: 14vh 20% 10px 20%;
 }
