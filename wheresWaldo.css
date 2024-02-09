@@ -5,9 +5,9 @@
     overflow: hidden;
 }
 
-body{
+body {
     background-color: rgb(0, 0, 0);
-    color: rgb(208,205,199);
+    color: rgb(208, 205, 199);
 }
 
 .title {
@@ -16,11 +16,11 @@ body{
 }
 
 .startButton {
-    color: rgb(208,205,199);
+    color: rgb(208, 205, 199);
     font-size: 7vw;
     margin: 10px 20% 10px 20%;
     border-radius: 20px;
-    border: 4px rgb(208,205,199) solid;
+    border: 4px rgb(208, 205, 199) solid;
     padding: 0 30px 0 30px;
     background-color: rgb(64, 125, 64);
 }
@@ -33,36 +33,83 @@ body{
 
 footer {
     position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-bottom: 25px;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 25px;
     font-size: 2vw;
     /*font-weight: normal;*/
 }
 
-.objective{
+.objective {
     font-size: 3vw;
 }
 
-.waldo{
+.waldo {
     width: 3vw;
     margin-left: 1vw;
 }
 
-.waldo:hover{
+.waldo:hover {
     cursor: pointer;
 }
 
-.door{
+.door {
     margin-top: 40px;
     height: 27vw;
 }
 
-.door:hover{
-    cursor: pointer;
+.doorOpen{
+    margin-top: 40px;
+    height: 27vw;
 }
 
-.subObjective{
+.picture{
+    margin: 0px 4vw;
+    position: relative;
+        display: inline-block;
+}
+
+.picture .doorOpen {
+    display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.picture:hover .doorOpen{
+    cursor: pointer;
+    display: inline;
+}
+
+.subObjective {
     margin-top: 5px;
     font-size: 1.5vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.painting {
+    margin-top: 40px;
+    height: 20px;
+}
+
+.paintingOpen{
+    margin-top: 40px;
+    height: 20px;
+}
+
+.picture .paintingOpen {
+    display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+}
+
+.picture:hover .paintingOpen{
+    cursor: pointer;
+    display: inline;
 }
