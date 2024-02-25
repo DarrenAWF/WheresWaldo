@@ -12,7 +12,12 @@ body {
 
 .title {
     font-size: 6vw;
-    margin: 14vh 20% 10px 20%;
+    margin: 1vh 20% 10px 20%;
+}
+
+.upperTitle {
+    margin: 8vh 20% 0px 20%;
+    font-size: 3vw;
 }
 
 .startButton {
@@ -120,7 +125,7 @@ a {
     cursor: pointer;
     display: inline;
 }
-/*
+
 .returnButton {
     color: rgb(208, 205, 199);
     font-size: 7vw;
@@ -136,12 +141,6 @@ a {
     background-color: rgb(213, 12, 12);
     cursor: pointer;
 }
-
-.titleReturn{
-    font-size: 5vw;
-    margin: 14vh 20% 10px 20%;
-}
-*/
 
 .statementButton {
     color: rgb(208, 205, 199);
